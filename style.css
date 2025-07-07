@@ -1,0 +1,53 @@
+body{ 
+max-width: 1100;
+background-color: azure;
+margin: 0 auto;
+font-family: Arial, sans-serif;
+}
+
+.card-section { 
+    text-align: center;
+    padding: 30;
+}
+
+.card-container{ 
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+     flex-wrap: wrap;
+     margin-top: 20px;
+
+}
+
+.card{ 
+    width: 150px;
+    height: 270px; 
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+    background-color:aqua
+    color: yellow;
+    box-shadow: 5px 5px 5px black;
+    transition: 0.5s;
+}
+
+
+.card :hover{ 
+    background-color: cyan;
+}
+
+.card img{ 
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+}  
+
+.card button{ 
+    background-color: hsl(340, 100%, 99%);
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+}
